@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-header .navbar {
+header nav {
     background-color: #D95A00;
     padding: 10px;
     text-align: center;
@@ -34,20 +34,29 @@ header .navbar a {
     padding-top: 100px;
 }
 
-#hero .cta-button {
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
     background-color: #333;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    margin-top: 20px;
-    font-size: 16px;
+    font-size: 18px;
     display: inline-block;
 }
 
 #menu {
     padding: 40px 20px;
-    text-align: center;
     background-color: #f4f4f4;
+    text-align: center;
 }
 
 #menu h2 {
@@ -64,9 +73,10 @@ header .navbar a {
 .menu-item {
     width: 250px;
     text-align: center;
-    border: 1px solid #ccc;
-    padding: 15px;
     background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .menu-item img {
@@ -76,8 +86,8 @@ header .navbar a {
 }
 
 .menu-item h3 {
-    margin: 10px 0;
     font-size: 20px;
+    margin-top: 15px;
 }
 
 #about, #contact {
@@ -90,5 +100,5 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
 }
